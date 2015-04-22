@@ -5,17 +5,40 @@
     <title>장채원 홈페이지</title>
     <script src="./main.js"></script>
     <style> 
-     img {
-     width:640px;
-     border-top:4px solid #6666666;
-     border-right:4px dashed #6666666;
-     border-bottom:4px dotted #6666666;
-     border-left:4px double #6666666;
-     }
+    	* {margin: 0px; padding: 0px;}
+    	.container {
+    		width:890px;
+    		margin:0px auto 0px auto;
+    		background-color: #225434;
+    		padding: :20px;
+    		text-align: center;
+    		
+    	}
+    	
+    	#myphto{
+    		background-color: #234543;
+    		border: 2px solid #ff0000;
+    	}
+    	
+    	#myinfo{
+    		background-color: 6895024;
+    		border: 2px solid #ff0000;
+    	}
+	    #myphoto > img {
+		     width:640px;
+		     border-top:4px solid #6666666;
+		     border-right:4px dashed #6666666;
+		     border-bottom:4px dotted #6666666;
+		     border-left:4px double #6666666;
+	     }
     </style>
 </head>
-<body>
-<div class="greeting">Hello World!</div>
-<img src="./images/16.png" alt="yunho" title="uknowyunho">
-</body>
+	<body>
+		<div class="container">
+			<div id="myphoto">
+				<img src="./images/128.jpg" alt="yunho" title="uknowyunho">
+			</div>
+			<div id="myinfo"></div>
+		</div>
+	</body>
 </html>
