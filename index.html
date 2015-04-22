@@ -31,14 +31,51 @@
 		     border-bottom:4px dotted #6666666;
 		     border-left:4px double #6666666;
 	     }
+	     #myinfo {
+	     	text-align: left;
+	     }
+	     #myinfo ol {
+	    	 margin: 30px auto 30px ayto;
+	    	 list-style: square;
+	    	  
+	     }
+	     #myinfo > ol > li > span.label {
+	     text-decoration: underline;
+	     color:#ff0000;
+	     font-family: "돋움체";
+	     }
+	     #myinfo > ol > li > span.content {
+	     text-decoration: bold;
+	     color:#00ff00;
+	     font-family: "궁서체";
+	     }
     </style>
 </head>
 	<body>
 		<div class="container">
-			<div id="myphoto">
+			<div id="my어photo">
 				<img src="./images/128.jpg" alt="yunho" title="uknowyunho">
 			</div>
-			<div id="myinfo"></div>
+			<div id="myinfo">
+				<ol>
+					<li>
+						<span class="label">이름</span> 
+						<span class="content"> 장채원</span>
+					</li>
+					<li>
+						<span class="label">이메일</span>
+					 	<span class="content">www.chaewon@gmail.com</span>
+					</li>
+					<li>
+						<span class="label">취미</span>
+					 	<span class="content">독서</span>
+					</li>
+					<li>
+						<span class="label">선호하는 언어</span>
+					 	<span class="content">없움</span>
+					</li>
+				</ol>
+			</div>
 		</div>
 	</body>
 </html>
